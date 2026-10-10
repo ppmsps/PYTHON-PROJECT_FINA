@@ -1,0 +1,34 @@
+======================================================================================
+📋 สรุปการยืม
+======================================================================================
+Generated At : 2026-10-10 14:55:42
+Source Files : inventory.bin + borrowers.bin + activity.bin
+Equipment Records : 53 | Borrowers : 9 | Requests : 9
+
+DETAILS
+แสดงรายการยืม/จอง โดยใช้ชื่อผู้ยืมและชื่ออุปกรณ์เพื่อให้อ่านง่าย
+Start Date = วันที่เริ่มยืม | End Date = วันที่สิ้นสุดตามจำนวนวันที่ยืม
+
+TABLE: BORROWING SUMMARY
+
++-----+----------------+------------------------+------------+------------+----------+
+| No. |    Borrower    |       Equipment        | Start Date |  End Date  |  Status  |
++-----+----------------+------------------------+------------+------------+----------+
+|  1  | James Anderson | Camera Sony FX6        | 2026-10-06 | 2026-10-11 | RETURNED |
+|  2  | James Anderson | Production Headset Set | 2026-10-06 | 2026-10-11 | RETURNED |
+|  3  | Emma Williams  | Lens Cooke S4 35mm     | 2026-10-06 | 2026-10-09 | APPROVED |
+|  4  | Emma Williams  | Camera Canon C70       | 2026-10-06 | 2026-10-09 | APPROVED |
+|  5  | Daniel Miller  | Camera Canon C70       | 2026-10-09 | 2026-10-11 | PENDING  |
+|  6  | Daniel Miller  | Light Aputure 600d Pro | 2026-10-06 | 2026-10-08 | APPROVED |
+|  7  | Sophia Brown   | Green Screen           | 2026-10-06 | 2026-10-07 | RETURNED |
+|  8  | Sophia Brown   | Gimbal DJI RS 3 Pro    | 2026-10-06 | 2026-10-13 | APPROVED |
+|  9  | Michael Davis  | Lens Sigma 18-35mm     | 2026-10-09 | 2026-10-12 | APPROVED |
++-----+----------------+------------------------+------------+------------+----------+
+
+--------------------------------------------------------------------------------------
+SUMMARY
+Total requests : 9
+Pending : 1 | Approved : 5 | Returned : 3 | Rejected : 0
+Approval rate : 100.0% of decided requests
+Equipment currently borrowed : 5
+======================================================================================

@@ -1,0 +1,86 @@
+======================================================================================================
+📦 สรุปสถานะอุปกรณ์
+======================================================================================================
+Generated At : 2026-10-10 14:55:42
+Source Files : inventory.bin + borrowers.bin + activity.bin
+Equipment Records : 53 | Borrowers : 9 | Activity Records : 35
+
+DETAILS
+แสดงสถานะอุปกรณ์ Active ครบทุกชิ้น เพื่อให้ข้อมูลที่เพิ่ม/แก้ไขล่าสุดมองเห็นได้ทันที
+Borrower ใช้ชื่อจาก borrowers.bin และ Status/Condition ใช้ข้อมูลจาก inventory.bin
+
+TABLE: EQUIPMENT STATUS (ALL ACTIVE ITEMS)
+
++--------------+----------------------------+----------+-----------+---------------+-----------+-----+
+| Equipment ID |       Equipment Name       | Category |  Status   |   Borrower    | Condition | Qty |
++--------------+----------------------------+----------+-----------+---------------+-----------+-----+
+| 10001        | Camera Sony FX6            | Camera   | Available |       -       |   Good    |  1  |
+| 10002        | Camera ARRI Alexa Mini     | Camera   | Available |       -       |   Fair    |  1  |
+| 10003        | Camera Canon C70           | Camera   | Borrowed  | Emma Williams |   Good    |  1  |
+| 10004        | Camera Sony FX3            | Camera   | Available |       -       |   Good    |  1  |
+| 10005        | Camera BMD Pocket 6K       | Camera   | Available |       -       |   Good    |  1  |
+| 10006        | Camera Blackmagic 6K Pro   | Camera   | Available |       -       |   Good    |  1  |
+| 20001        | Lens Cooke S4 35mm         | Lens     | Borrowed  | Emma Williams |   Good    |  1  |
+| 20002        | Lens Sigma Cine 50mm T1.5  | Lens     | Available |       -       |   Fair    |  1  |
+| 20003        | Zoom Lens 24-70mm          | Lens     | Available |       -       |   Good    |  1  |
+| 20004        | Lens Canon CN-E 85mm       | Lens     | Available |       -       |   Good    |  1  |
+| 20005        | Lens Sony 24-105mm         | Lens     | Available |       -       |   Good    |  1  |
+| 20006        | Lens Sigma 18-35mm         | Lens     | Borrowed  | Michael Davis |   Good    |  1  |
+| 30001        | Light Aputure 600d Pro     | Lighting | Borrowed  | Daniel Miller |   Good    |  1  |
+| 30002        | Light LED Panel 1x1        | Lighting | Available |       -       |   Fair    |  1  |
+| 30003        | Softbox 120 cm             | Lighting | Available |       -       |   Good    |  1  |
+| 30004        | Light Aputure 300x         | Lighting | Available |       -       |   Good    |  1  |
+| 30005        | Light RGB Tube             | Lighting | Available |       -       |   Good    |  1  |
+| 30006        | Light LED Fresnel          | Lighting | Available |       -       |   Good    |  1  |
+| 40001        | Boom Mic Sennheiser MKH416 | Audio    | Available |       -       |   Good    |  1  |
+| 40002        | Wireless Lavalier Mic      | Audio    | Available |       -       |   Fair    |  1  |
+| 40003        | Recorder Zoom F8           | Audio    | Available |       -       |   Good    |  1  |
+| 40004        | Shotgun Mic NTG5           | Audio    | Available |       -       |   Good    |  1  |
+| 40005        | Wireless Mic Set 2-Ch      | Audio    | Available |       -       |   Good    |  1  |
+| 40006        | Boom Mic RODE NTG3         | Audio    | Available |       -       |   Good    |  1  |
+| 50001        | Tripod Fluid Head          | Support  | Available |       -       |   Good    |  1  |
+| 50002        | Dolly Track 3 m            | Support  | Available |       -       |   Fair    |  1  |
+| 50003        | Gimbal DJI RS 3 Pro        | Support  | Borrowed  | Sophia Brown  |   Good    |  1  |
+| 50004        | Light Stand Heavy Duty     | Support  | Available |       -       |   Good    |  1  |
+| 50005        | C-Stand                    | Support  | Available |       -       |   Good    |  1  |
+| 50006        | Tripod Carbon Fiber        | Support  | Available |       -       |   Good    |  1  |
+| 60001        | V-Mount Battery 150Wh      | Power    | Available |       -       |   Good    |  1  |
+| 60002        | Battery Charger 4-Ch       | Power    | Available |       -       |   Fair    |  1  |
+| 60003        | V-Mount Battery 98Wh       | Power    | Available |       -       |   Good    |  1  |
+| 60004        | Power Station              | Power    | Available |       -       |   Good    |  1  |
+| 60005        | AC Power Kit               | Power    | Available |       -       |   Good    |  1  |
+| 70001        | Monitor SmallHD 17in       | Monitor  | Available |       -       |   Good    |  1  |
+| 70002        | Wireless Video Teradek     | Monitor  | Available |       -       |   Fair    |  1  |
+| 70003        | Monitor Feelworld 7in      | Monitor  | Available |       -       |   Good    |  1  |
+| 70004        | Monitor Atomos Ninja       | Monitor  | Available |       -       |   Good    |  1  |
+| 70005        | Video Transmitter          | Monitor  | Available |       -       |   Good    |  1  |
+| 80001        | Green Screen               | Set      | Available |       -       |   Good    |  1  |
+| 80002        | White Backdrop 3x6 m       | Set      | Available |       -       |   Fair    |  1  |
+| 80003        | Black Backdrop 3x6 m       | Set      | Available |       -       |   Good    |  1  |
+| 80004        | Product Shooting Table     | Set      | Available |       -       |   Good    |  1  |
+| 80005        | Reflector 5-in-1 Set       | Set      | Available |       -       |   Good    |  1  |
+| 90001        | Walkie-Talkie              | Comms    | Available |       -       |   Good    |  1  |
+| 90002        | Radio Headset              | Comms    | Available |       -       |   Fair    |  1  |
+| 90003        | Intercom Set               | Comms    | Available |       -       |   Good    |  1  |
+| 90004        | Long-Range Radio           | Comms    | Available |       -       |   Good    |  1  |
+| 90005        | Production Headset Set     | Comms    | Available |       -       |   Good    |  1  |
+| 99999        | Test Camera                | Camera   | Available |       -       |   Good    |  1  |
++--------------+----------------------------+----------+-----------+---------------+-----------+-----+
+
+------------------------------------------------------------------------------------------------------
+SUMMARY
+Total records : 53  (Active 51 | Deleted/Free slot 2)
+Displayed in table : 51 equipment IDs / 51 physical units
+Available : 46
+Borrowed : 5 (9.8% of active equipment in use)
+By category:
+  Camera    :  7 IDs |  7 units | Available  6 | Borrowed  1
+  Lens      :  6 IDs |  6 units | Available  4 | Borrowed  2
+  Lighting  :  6 IDs |  6 units | Available  5 | Borrowed  1
+  Audio     :  6 IDs |  6 units | Available  6 | Borrowed  0
+  Support   :  6 IDs |  6 units | Available  5 | Borrowed  1
+  Power     :  5 IDs |  5 units | Available  5 | Borrowed  0
+  Monitor   :  5 IDs |  5 units | Available  5 | Borrowed  0
+  Set       :  5 IDs |  5 units | Available  5 | Borrowed  0
+  Comms     :  5 IDs |  5 units | Available  5 | Borrowed  0
+======================================================================================================

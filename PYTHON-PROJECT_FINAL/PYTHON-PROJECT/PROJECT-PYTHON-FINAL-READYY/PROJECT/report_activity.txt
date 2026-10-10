@@ -1,0 +1,60 @@
+======================================================================================================================
+📝 สรุปประวัติการทำงาน
+======================================================================================================================
+Generated At : 2026-10-10 14:55:42
+Source Files : activity.bin + inventory.bin + borrowers.bin
+Activity Records : 35 | Equipment Records : 53 | Borrowers : 9
+
+DETAILS
+แสดงประวัติการทำงานครบทุกกิจกรรม พร้อมวันที่เริ่มยืมและวันที่สิ้นสุด
+ไม่แสดงจำนวนวัน เพื่อให้ดูวันเริ่มต้นและวันสิ้นสุดได้โดยตรง
+Borrower แสดงเป็นชื่อ และ Equipment แสดงเป็นชื่ออุปกรณ์
+
+TABLE: ACTIVITY LOG
+
++------------------+-----------+------------------------+----------------+------------+------------+-----------------+
+|   Date / Time    |  Action   |       Equipment        |    Borrower    | Start Date |  End Date  |     Details     |
++------------------+-----------+------------------------+----------------+------------+------------+-----------------+
+| 2026-10-10 01:52 | Approved  | Lens Sigma 18-35mm     | Michael Davis  | 2026-10-09 | 2026-10-12 |        -        |
+| 2026-10-09 23:24 | Returned  | Camera Sony FX6        | James Anderson |     -      |     -      |    Returned     |
+| 2026-10-09 20:27 |  Viewed   | -                      | -              |     -      |     -      |    6 records    |
+| 2026-10-09 20:21 |  Viewed   | -                      | -              |     -      |     -      |    5 records    |
+| 2026-10-09 19:37 |  Viewed   | -                      | -              |     -      |     -      |   51 records    |
+| 2026-10-09 19:22 |  Viewed   | Camera Sony FX6        | -              |     -      |     -      |    0 records    |
+| 2026-10-09 09:00 | Reserved  | Camera Canon C70       | Daniel Miller  | 2026-10-09 | 2026-10-11 |        -        |
+| 2026-10-09 09:00 | Requested | Lens Sigma 18-35mm     | Michael Davis  | 2026-10-09 | 2026-10-12 |        -        |
+| 2026-10-09 09:00 | Borrowed  | Lens Sigma 18-35mm     | Michael Davis  | 2026-10-09 | 2026-10-12 |        -        |
+| 2026-10-09 01:01 |  Deleted  | Test Camera 1          | -              |     -      |     -      |     1 item      |
+| 2026-10-09 00:56 |  Updated  | Test Camera 1          | -              |     -      |     -      |      Good       |
+| 2026-10-09 00:44 |   Added   | Test Camera 1          | -              |     -      |     -      | Added 2 item(s) |
+| 2026-10-06 19:43 | Returned  | Production Headset Set | James Anderson |     -      |     -      |    Returned     |
+| 2026-10-06 19:39 | Returned  | Green Screen           | Sophia Brown   |     -      |     -      |    Returned     |
+| 2026-10-06 19:38 | Approved  | Green Screen           | Sophia Brown   | 2026-10-06 | 2026-10-07 |        -        |
+| 2026-10-06 19:38 | Approved  | Gimbal DJI RS 3 Pro    | Sophia Brown   | 2026-10-06 | 2026-10-13 |        -        |
+| 2026-10-06 19:31 | Approved  | Light Aputure 600d Pro | Daniel Miller  | 2026-10-06 | 2026-10-08 |        -        |
+| 2026-10-06 19:29 | Approved  | Camera Canon C70       | Emma Williams  | 2026-10-06 | 2026-10-09 |        -        |
+| 2026-10-06 19:29 | Approved  | Lens Cooke S4 35mm     | Emma Williams  | 2026-10-06 | 2026-10-09 |        -        |
+| 2026-10-06 19:29 | Approved  | Production Headset Set | James Anderson | 2026-10-06 | 2026-10-11 |        -        |
+| 2026-10-06 19:29 | Approved  | Camera Sony FX6        | James Anderson | 2026-10-06 | 2026-10-11 |        -        |
+| 2026-10-06 09:00 | Requested | Camera Sony FX6        | James Anderson | 2026-10-06 | 2026-10-11 |        -        |
+| 2026-10-06 09:00 | Requested | Production Headset Set | James Anderson | 2026-10-06 | 2026-10-11 |        -        |
+| 2026-10-06 09:00 | Requested | Lens Cooke S4 35mm     | Emma Williams  | 2026-10-06 | 2026-10-09 |        -        |
+| 2026-10-06 09:00 | Requested | Camera Canon C70       | Emma Williams  | 2026-10-06 | 2026-10-09 |        -        |
+| 2026-10-06 09:00 | Borrowed  | Camera Sony FX6        | James Anderson | 2026-10-06 | 2026-10-11 |        -        |
+| 2026-10-06 09:00 | Borrowed  | Production Headset Set | James Anderson | 2026-10-06 | 2026-10-11 |        -        |
+| 2026-10-06 09:00 | Borrowed  | Lens Cooke S4 35mm     | Emma Williams  | 2026-10-06 | 2026-10-09 |        -        |
+| 2026-10-06 09:00 | Borrowed  | Camera Canon C70       | Emma Williams  | 2026-10-06 | 2026-10-09 |        -        |
+| 2026-10-06 09:00 | Requested | Light Aputure 600d Pro | Daniel Miller  | 2026-10-06 | 2026-10-08 |        -        |
+| 2026-10-06 09:00 | Borrowed  | Light Aputure 600d Pro | Daniel Miller  | 2026-10-06 | 2026-10-08 |        -        |
+| 2026-10-06 09:00 | Requested | Green Screen           | Sophia Brown   | 2026-10-06 | 2026-10-07 |        -        |
+| 2026-10-06 09:00 | Requested | Gimbal DJI RS 3 Pro    | Sophia Brown   | 2026-10-06 | 2026-10-13 |        -        |
+| 2026-10-06 09:00 | Borrowed  | Gimbal DJI RS 3 Pro    | Sophia Brown   | 2026-10-06 | 2026-10-13 |        -        |
+| 2026-10-06 09:00 | Borrowed  | Green Screen           | Sophia Brown   | 2026-10-06 | 2026-10-07 |        -        |
++------------------+-----------+------------------------+----------------+------------+------------+-----------------+
+
+----------------------------------------------------------------------------------------------------------------------
+SUMMARY
+Total activity records : 35
+Period covered : 2026-10-06 09:00 to 2026-10-10 01:52
+By action : Added 1 | Approved 8 | Borrowed 8 | Deleted 1 | Requested 8 | Reserved 1 | Returned 3 | Updated 1 | Viewed 4
+======================================================================================================================
